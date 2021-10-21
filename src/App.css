@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  display:flex;
+}
+
+#rectangle {
+  width: 40px;
+  height: 24px;
+  background: #003DB8;
+  margin-top: 20px;
+  margin-left: 30px;
+  
+}
+#rec-pointer {
+  width: 40px;
+  height: 24px;
+  position: relative;
+  background: #003DB8;
+  margin-top: 20px;
+  margin-left: 30px;
+  
+}
+
+
+
+#rec-pointer:before 
+  {
+    content: "";
+    position: absolute;
+    right: -11px;
+    bottom: 0;
+    width: 0;
+    height: 0px;
+    border-left: 11px solid #003DB8;
+    border-top: 13px solid transparent;
+    border-bottom: 11px solid transparent;
+}
+
+
+  
+
+#pointer {
+  width: 155px;
+  height: 24px;
+  position: relative;
+  background: #518BFF;
+  margin-top: 20px;
+}
+
+#pointer:after {
+  content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 11px solid #003DB8;
+    border-top: 13px solid transparent;
+    border-bottom: 11px solid transparent;
+
+
+
+}
+
+#pointer2 {
+  width: 155px;
+  height: 24px;
+  position: relative;
+  background: #003DB8;
+  margin-top: 20px;
+}
+#pointer2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 11px solid#518BFF;
+  border-top: 13px solid transparent;
+  border-bottom: 11px solid transparent;
+
+
+
+}
+#pointer3 {
+  width: 155px;
+  height: 24px;
+  position: relative;
+
+background: #518BFF;
+  margin-top: 20px;
+}
+#pointer3:after {
+  content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 11px solid #003DB8;
+    border-top: 13px solid transparent;
+    border-bottom: 11px solid transparent;
+
+
+
+}
+p{
+  margin-top: 0px;
+  margin-left: 17px;
+  color: white;
+
+}
+#text{
+  margin-top: 0px;
+  margin-left: 45px;
+  color: white;  
+}
