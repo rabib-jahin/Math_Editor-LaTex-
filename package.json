@@ -7,9 +7,11 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "@uiw/react-md-editor": "^3.6.5",
+    "guppy-js": "^2.0.0-beta.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-katex": "^2.0.2",
+    "react-latex": "^2.0.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
